@@ -49,13 +49,13 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex gap-5 text-2xl text-gray-600">
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/Parvez-hasan" target="_blank">
               <FaGithub className="hover:text-black transition" />
             </a>
-            <a href="https://linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/parvez-hasan-bd/" target="_blank">
               <FaLinkedin className="hover:text-blue-700 transition" />
             </a>
-            <a href="https://facebook.com/" target="_blank">
+            <a href="https://web.facebook.com/parvez.ahmed.577031" target="_blank">
               <FaFacebook className="hover:text-blue-600 transition" />
             </a>
           </div>
