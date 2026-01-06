@@ -5,12 +5,12 @@ const skillsData = {
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
-    { name: "React", level: 85 },
+    { name: "React", level: 95 },
     { name: "Tailwind CSS", level: 90 },
   ],
   backend: [
     { name: "Node.js", level: 75 },
-    { name: "Express.js", level: 70 },
+    { name: "Express.js", level: 85 },
     { name: "MongoDB", level: 70 },
   ],
   tools: [
@@ -42,7 +42,7 @@ const SkillBar = ({ skill, level }) => (
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+    <section id="skills" className="py-12 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section Title */}

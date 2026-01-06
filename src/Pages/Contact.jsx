@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section Title */}

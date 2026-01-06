@@ -5,7 +5,7 @@ import projects from "../data/Project";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}

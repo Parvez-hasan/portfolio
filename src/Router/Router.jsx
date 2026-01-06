@@ -2,6 +2,7 @@
 import { createBrowserRouter } from "react-router";
 import MianLayout from "../Laylout/MianLayout";
 import Home from "../Pages/Home";
+import ProjectDetails from "../Pages/ProjectDetails";
 
 
 export const Router = createBrowserRouter([
@@ -13,10 +14,10 @@ export const Router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-    //   {
-    //     path: "/projects/:id",
-    //     element: <ProjectDetails />,
-    //   },
+      {
+        path: "/projects/:id",
+        element: <ProjectDetails />,
+      },
     ],
   },
 ]);

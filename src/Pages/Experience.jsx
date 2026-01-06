@@ -4,7 +4,7 @@ const experiences = [
   {
     role: "MERN Stack Web Developer (Freelance)",
     company: "Self / Remote",
-    duration: "2024 – Present",
+    duration: "2025 – Present",
     details: [
       "Developed responsive web applications using React and Tailwind CSS",
       "Built RESTful APIs with Node.js and Express",
@@ -16,7 +16,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-white">
+    <section id="experience" className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Title */}
@@ -36,7 +36,7 @@ const Experience = () => {
         </motion.div>
 
         {/* Timeline */}
-        <div className="relative border-l-2 border-blue-600 pl-8">
+        <div className="relative border-l-2 border-blue-600 pl-6">
           {experiences.map((exp, index) => (
             <motion.div
               key={index}
