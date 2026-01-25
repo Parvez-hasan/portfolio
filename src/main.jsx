@@ -3,10 +3,15 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Router from './Router/Router.jsx'
 import { RouterProvider } from 'react-router'
+import { ThemeProvider } from './Contexts/ThemeContext.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
  
-     <RouterProvider router={Router} />
+  <ThemeProvider>
+      <RouterProvider router={Router} />
+  </ThemeProvider>
+    
   </StrictMode>,
 )

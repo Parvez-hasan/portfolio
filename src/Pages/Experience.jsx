@@ -16,8 +16,8 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-12 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="experience" className="py-12">
+      <div className="max-w-6xl mx-auto mt-12 px-6">
 
         {/* Title */}
         <motion.div
@@ -27,10 +27,10 @@ const Experience = () => {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl font-bold text-gray-800 mb-3">
+          <h2 className="text-4xl font-bold  mb-3">
             Experience
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto">
+          <p className=" max-w-xl mx-auto">
             My professional and hands-on development experience.
           </p>
         </motion.div>
@@ -48,14 +48,14 @@ const Experience = () => {
             >
               <span className="absolute -left-3 top-1 w-6 h-6 bg-blue-600 rounded-full"></span>
 
-              <h3 className="text-xl font-semibold text-gray-800">
+              <h3 className="text-xl font-semibold ">
                 {exp.role}
               </h3>
-              <p className="text-gray-500 mb-2">
+              <p className=" mb-2">
                 {exp.company} | {exp.duration}
               </p>
 
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
+              <ul className="list-disc list-inside  space-y-1">
                 {exp.details.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
